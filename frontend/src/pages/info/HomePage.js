@@ -1,16 +1,26 @@
 import React from "react";
 import NavigationBar from "../../components/NavigationBar";
-
+import Header from "../../components/Header";
+import About from "../../components/About";
 function HomePage() {
 
+        
     return(
         <div>
-            <h1>
-                Welcome to the home page of uploaded
-            </h1>
-            <NavigationBar />
+            <NavigationBar/>
+        
+    <Header/>
+        <About/>
         </div>
+        
+      
+   
+ 
+   
     )
+
+    
+        
 }
 
 export default HomePage;

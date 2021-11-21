@@ -1,3 +1,5 @@
+import "../../components/info/Header.css"
+
 function Header(){
 
 return(

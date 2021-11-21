@@ -12,3 +12,8 @@ body{
   font-family: 'Menlo', 'Courier New', monospace;
 padding-bottom: 10rem;
 }
+
+img {
+    padding: 10rem;
+    max-width: 60%;
+}

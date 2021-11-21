@@ -1,5 +1,5 @@
 import React from "react";
-import Line from "../../components/Line";
+import Line from "../../components/track-record/Line";
 import NavigationBar from "../../components/NavigationBar";
 
 function TrackRecordPage() {

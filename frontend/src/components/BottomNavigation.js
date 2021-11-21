@@ -9,7 +9,7 @@ const Box = styled.button`
     border-style: solid;
     background-color: transparent;
     :hover {
-        background-color: #242424;
+        background-color: #2a151a;
     }
     transition: background-color 0.2s linear;
     height: 75px;

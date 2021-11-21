@@ -3,14 +3,15 @@ import NavigationBar from "../../components/NavigationBar";
 import Header from "../../components/info/Header";
 import About from "../../components/info/About";
 import "../../pages/info/styles.css"
+import LogoImage from "../../assets/header.png"
+
 function HomePage() {
 
         
     return(
         <div>
             <NavigationBar/>
-        <img src="../../assets/header.png" alt="UP.LOADED">
-        </img>
+        <img src={LogoImage} alt="UP.LOADED" style={{height: 100}} />
         
     <Header/>
         <About/>

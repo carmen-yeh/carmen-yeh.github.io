@@ -11,20 +11,12 @@ function HomePage() {
     return(
         <div>
             <NavigationBar/>
-        <img src={LogoImage} alt="UP.LOADED" style={{height: 100}} />
-        
-    <Header/>
-        <About/>
+            <img src={LogoImage} alt="UP.LOADED" style={{height: 100}} />
+            <Header/>
+            <About/>
         </div>
         
-      
-   
- 
-   
     )
-
-    
-        
 }
 
 export default HomePage;

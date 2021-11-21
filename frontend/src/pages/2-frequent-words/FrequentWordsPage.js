@@ -1,7 +1,7 @@
 import React from "react";
 import BottomNavigation from "../../components/BottomNavigation";
 import NavigationBar from "../../components/NavigationBar";
-import "../../pages/2-frequent-words/FrequentWords.css"
+import "../../pages/2-frequent-words/FrequentWords.css";
 
 function FrequentWordsPage() {
 

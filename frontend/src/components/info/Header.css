@@ -1,5 +1,13 @@
 #header h1{
-    padding: 4rem;
+    font-size: 1.1rem;
+    padding-top: 20rem;
     font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+}
+
+#header h2{
+    font-size: 1.1rem;
+    padding-bottom: 20rem;
+  font-family: 'Menlo', 'Courier New', monospace;
     font-weight: lighter;
 }

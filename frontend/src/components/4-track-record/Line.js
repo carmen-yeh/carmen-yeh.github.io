@@ -2,12 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-    border-width: 0;
-    background-color: gray;
+    border-width: 1px;
+border-color: grey;
+border-style: solid;
     :hover {
     background-color: white;
+border-color: white;
     }
-    transition: background-color 0.2s linear;
+    transition: background-color 0.05s linear;
 `;
 
 function Line({length = 100, height = 8}) {

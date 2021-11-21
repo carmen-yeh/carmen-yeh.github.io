@@ -1,5 +1,6 @@
 import React from "react";
 import BirthdayDot from "../../components/3-happy-birthday/BirthdayDot";
+import BottomNavigation from "../../components/BottomNavigation";
 import NavigationBar from "../../components/NavigationBar";
 
 function HappyBirthdayPage() {
@@ -16,6 +17,7 @@ function HappyBirthdayPage() {
             <BirthdayDot paddingLeft={40} divSize={100}/>
             <BirthdayDot paddingLeft={60} divSize={100}/>
             <BirthdayDot paddingLeft={30} divSize={100}/>
+            <BottomNavigation />
         </div>
     )
 }

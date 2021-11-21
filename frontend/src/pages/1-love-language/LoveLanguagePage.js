@@ -1,5 +1,6 @@
 import React from "react";
 import LoveBox from "../../components/1-love-language/LoveBox";
+import BottomNavigation from "../../components/BottomNavigation";
 import NavigationBar from "../../components/NavigationBar";
 
 function LoveLanguagePage() {
@@ -18,6 +19,7 @@ function LoveLanguagePage() {
             <LoveBox paddingLeft={60} text={"Me too"}/>
             <LoveBox paddingLeft={40} text={"Thanks"}/>
             <LoveBox paddingLeft={70} text={"Don't forget me"}/>
+            <BottomNavigation />
         </div>
     )
 }

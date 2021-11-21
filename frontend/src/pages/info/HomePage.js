@@ -4,6 +4,7 @@ import Header from "../../components/info/Header";
 import About from "../../components/info/About";
 import "../../pages/info/styles.css"
 import LogoImage from "../../assets/header.png"
+import BottomNavigation from "../../components/BottomNavigation";
 
 function HomePage() {
 
@@ -14,6 +15,7 @@ function HomePage() {
             <img src={LogoImage} alt="UP.LOADED"/>
             <Header/>
             <About/>
+            <BottomNavigation />
         </div>
         
     )

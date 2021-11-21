@@ -1,4 +1,5 @@
 import React from "react";
+import BottomNavigation from "../../components/BottomNavigation";
 import NavigationBar from "../../components/NavigationBar";
 
 function AboutPage() {
@@ -9,6 +10,7 @@ function AboutPage() {
                 This is what uploaded is about
             </h1>
             <NavigationBar />
+            <BottomNavigation />
         </div>
     )
 }

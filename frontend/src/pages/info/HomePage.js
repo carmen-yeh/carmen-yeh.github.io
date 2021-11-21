@@ -9,6 +9,8 @@ function HomePage() {
     return(
         <div>
             <NavigationBar/>
+        <img src="../../assets/header.png" alt="UP.LOADED">
+        </img>
         
     <Header/>
         <About/>

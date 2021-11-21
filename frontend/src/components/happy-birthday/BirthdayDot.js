@@ -5,14 +5,14 @@ import { bounceIn } from "react-animations";
 const Dot = styled.span`
   height: 10px;
   width: 10px;
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
 `;
 
 const HappyBirthdayText = styled.div`
   text-align: center;
-  color: black;
+  color: white;
 `;
 
 const Bounce = styled.div`

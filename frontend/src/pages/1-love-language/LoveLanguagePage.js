@@ -2,7 +2,7 @@ import React from "react";
 import LoveBox from "../../components/1-love-language/LoveBox";
 import BottomNavigation from "../../components/BottomNavigation";
 import NavigationBar from "../../components/NavigationBar";
-import "../../pages/1-love-language/lovelanguage.css"
+import "../../pages/1-love-language/lovelanguage.css";
 
 function LoveLanguagePage() {
 

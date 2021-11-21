@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import {Card, CardContent} from "@mui/material";
 import styled from "styled-components";
 
+
 const Box = styled.button`
     border-width: 2px;
     border-color: white;

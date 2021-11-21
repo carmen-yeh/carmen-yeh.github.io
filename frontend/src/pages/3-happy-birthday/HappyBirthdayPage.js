@@ -10,7 +10,12 @@ function HappyBirthdayPage() {
                 Its ma birthday
             </h1>
             <NavigationBar />
-            <BirthdayDot paddingLeft={100} divSize={100}/>
+            <BirthdayDot paddingLeft={10} divSize={100}/>
+            <BirthdayDot paddingLeft={50} divSize={100}/>
+            <BirthdayDot paddingLeft={90} divSize={100}/>
+            <BirthdayDot paddingLeft={40} divSize={100}/>
+            <BirthdayDot paddingLeft={60} divSize={100}/>
+            <BirthdayDot paddingLeft={30} divSize={100}/>
         </div>
     )
 }

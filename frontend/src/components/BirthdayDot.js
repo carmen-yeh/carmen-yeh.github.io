@@ -24,7 +24,7 @@ function BirthdayDot({paddingLeft = 0, divSize = 80}) {
     const [active, setActive] = useState(false);
 
     return (
-        <div onMouseEnter={() => {setActive(true)}} style={{display:'flex', height:divSize, width: divSize, marginLeft: paddingLeft, justifyContent:'center'}}>
+        <div onMouseEnter={() => {setActive(true)}} style={{display:'flex', height:(divSize/2), width: divSize, marginLeft: (paddingLeft + 'vw'), justifyContent:'center'}}>
             {active ? (
                 <Bounce>
                     <HappyBirthdayText>Happy Birthday!</HappyBirthdayText>

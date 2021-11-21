@@ -1,0 +1,14 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+      display: block;
+    text-align: center;
+  background-color: #000000;
+    font-size: 0.8rem;
+ color: white;
+  font-family: 'Menlo', 'Courier New', monospace;
+  text-align: center;
+}

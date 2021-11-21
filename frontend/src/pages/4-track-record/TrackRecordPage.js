@@ -1,6 +1,9 @@
 import React from "react";
 import Line from "../../components/track-record/Line";
 import NavigationBar from "../../components/NavigationBar";
+import LineGroup1 from "../../components/track-record/LineGroup1";
+import LineGroup2 from "../../components/track-record/LineGroup2";
+import LineGroup3 from "../../components/track-record/LineGroup3";
 
 function TrackRecordPage() {
 
@@ -11,33 +14,9 @@ function TrackRecordPage() {
             </h1>
             <NavigationBar />
             <div style={{display: 'flex', justifyContent: "space-evenly"}}>
-                <div>
-                    <Line length={400}/>
-                    <Line length={300}/>
-                    <Line length={350}/>
-                    <Line length={250}/>
-                    <Line length={300}/>
-                    <Line length={200}/>
-                    <Line length={400}/>
-                </div>
-                <div>
-                    <Line length={400}/>
-                    <Line length={300}/>
-                    <Line length={350}/>
-                    <Line length={250}/>
-                    <Line length={300}/>
-                    <Line length={200}/>
-                    <Line length={400}/>
-                </div>
-                <div>
-                    <Line length={400}/>
-                    <Line length={300}/>
-                    <Line length={350}/>
-                    <Line length={250}/>
-                    <Line length={300}/>
-                    <Line length={200}/>
-                    <Line length={400}/>
-                </div>
+                <LineGroup1 />
+                <LineGroup2 />
+                <LineGroup3 />
             </div>
         </div>
     )

@@ -15,7 +15,7 @@ function HomePage() {
             <img src={LogoImage} alt="UP.LOADED"/>
             <Header/>
             <About/>
-            <BottomNavigation />
+            <BottomNavigation/>
         </div>
         
     )

@@ -1,3 +1,5 @@
+import "../../components/info/About.css"
+
 function About(){
 
 return(

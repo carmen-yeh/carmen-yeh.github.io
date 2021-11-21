@@ -10,12 +10,16 @@ body{
     font-size: 1rem;
  color: white;
   font-family: 'Menlo', 'Courier New', monospace;
-padding-bottom: 10rem;
+padding-bottom: 15rem;
 }
 
 img {
-    padding: 10rem;
-    max-width: 60%;
-    align-content: center;
-    justify-content: center;
+    display: block;
+      margin-left: auto;
+  margin-right: auto;
+/*     align-content: center;*/
+    padding: 15rem;
+ max-width: 50%;
+
+
 }

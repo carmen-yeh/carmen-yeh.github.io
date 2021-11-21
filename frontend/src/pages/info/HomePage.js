@@ -2,7 +2,7 @@ import React from "react";
 import NavigationBar from "../../components/NavigationBar";
 import Header from "../../components/info/Header";
 import About from "../../components/info/About";
-import "../../pages/info/homepage.css"
+import "../../pages/info/HomePage.css"
 import LogoImage from "../../assets/header.png"
 import BottomNavigation from "../../components/BottomNavigation";
 

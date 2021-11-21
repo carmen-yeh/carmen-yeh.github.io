@@ -1,5 +1,5 @@
 import React from "react";
-import BirthdayDot from "../../components/happy-birthday/BirthdayDot";
+import BirthdayDot from "../../components/3-happy-birthday/BirthdayDot";
 import NavigationBar from "../../components/NavigationBar";
 
 function HappyBirthdayPage() {

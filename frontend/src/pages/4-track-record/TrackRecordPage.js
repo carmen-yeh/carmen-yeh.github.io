@@ -1,9 +1,8 @@
 import React from "react";
-import Line from "../../components/track-record/Line";
 import NavigationBar from "../../components/NavigationBar";
-import LineGroup1 from "../../components/track-record/LineGroup1";
-import LineGroup2 from "../../components/track-record/LineGroup2";
-import LineGroup3 from "../../components/track-record/LineGroup3";
+import LineGroup1 from "../../components/4-track-record/LineGroup1";
+import LineGroup2 from "../../components/4-track-record/LineGroup2";
+import LineGroup3 from "../../components/4-track-record/LineGroup3";
 
 function TrackRecordPage() {
 

@@ -11,7 +11,7 @@ function HomePage() {
     return(
         <div>
             <NavigationBar/>
-            <img src={LogoImage} alt="UP.LOADED" style={{height: 100}} />
+            <img src={LogoImage} alt="UP.LOADED"/>
             <Header/>
             <About/>
         </div>

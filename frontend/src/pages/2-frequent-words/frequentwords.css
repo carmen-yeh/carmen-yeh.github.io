@@ -14,6 +14,7 @@
 #frequentwords p {
     max-width: 40%;
 padding-bottom: 20rem;
+    line-height: 1.4;
 }
 
 #frequentwords body{

@@ -1,14 +1,14 @@
 import React from "react";
 import BirthdayDot from "../../components/3-happy-birthday/BirthdayDot";
 import BottomNavigation from "../../components/BottomNavigation";
-import NavigationBar from "../../components/NavigationBar";
 import "../../pages/3-happy-birthday/HappyBirthday.css";
+import TopNavigation from "../../components/TopNavigation";
 
 function HappyBirthdayPage() {
 
     return(
         <div id = "happybirthday">
-         <NavigationBar />
+         <TopNavigation/>
             <h1>
                 HAPPY.BIRTHDAY
             </h1>
@@ -21,6 +21,9 @@ function HappyBirthdayPage() {
             <BirthdayDot paddingLeft={60} divSize={100}/>
             <BirthdayDot paddingLeft={30} divSize={100}/>
             <BottomNavigation />
+        <div id= "footer">  
+        <p2> UP.LOADED - Carmen Yeh 2021 </p2>
+                </div>
         </div>
     )
 }

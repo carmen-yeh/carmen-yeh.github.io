@@ -15,7 +15,6 @@ const Box = styled.button`
     transition: background-color 0.1s linear;
     height: 75px;
     width: 260px;
-    margin-left: 0;
     margin-top: 20px;
 align-content: center;
 `;
@@ -24,6 +23,7 @@ const Text = styled.div`
     color: white;
     font-family: 'Menlo', 'Courier New', monospace;
     font-size: 1.1rem;
+background-color: transparent;
 `;
 
 function Button({text, link}) {
@@ -40,7 +40,7 @@ function BottomNavigation() {
 
     return(
         <div style={{display: 'block', justifyContent:'center', paddingTop: 200, paddingBottom: 200}}>
-            <Card style={{width: '280px', backgroundColor: "#0000"}}>
+            <Card style={{width: '280px', backgroundColor: "#000000"}}>
                 <CardContent>
                     {/* <Button text={"HOME"} link={"/"} />
                     <Button text={"ABOUT"} link={"/about"} /> */}

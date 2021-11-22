@@ -5,24 +5,25 @@ import styled from "styled-components";
 
 
 const Box = styled.button`
-    border-width: 2px;
+    border-width: 1.8px;
     border-color: white;
     border-style: solid;
     background-color: transparent;
     :hover {
         background-color: #2a151a;
     }
-    transition: background-color 0.2s linear;
+    transition: background-color 0.1s linear;
     height: 75px;
-    width: 15vw;
+    width: 260px;
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 20px;
+align-content: center;
 `;
 const Text = styled.div`
     text-align:center;
     color: white;
     font-family: 'Menlo', 'Courier New', monospace;
-    font-size: 1.25vw;
+    font-size: 1.1rem;
 `;
 
 function Button({text, link}) {
@@ -38,8 +39,8 @@ function Button({text, link}) {
 function BottomNavigation() {
 
     return(
-        <div style={{display: 'flex', justifyContent:'center'}}>
-            <Card style={{width: '20vw', backgroundColor: "#0000"}}>
+        <div style={{display: 'block', justifyContent:'center', paddingTop: 200, paddingBottom: 200}}>
+            <Card style={{width: '280px', backgroundColor: "#0000"}}>
                 <CardContent>
                     {/* <Button text={"HOME"} link={"/"} />
                     <Button text={"ABOUT"} link={"/about"} /> */}
@@ -52,5 +53,6 @@ function BottomNavigation() {
         </div>
     )
 }
+
 
 export default BottomNavigation;

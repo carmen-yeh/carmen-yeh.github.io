@@ -26,13 +26,20 @@ img {
 
 }
 #footer{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    max-width: 90%;
     
 }
 #footer p{
    font-size: 0.8rem;
     padding-bottom: 10px;
-    max-width: 90%;
+        font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+}
+#footer p2{
+   font-size: 0.8rem;
+/*    padding-bottom: 10px;*/
+  
         font-family: "Helvetica", "Arial", sans-serif;
     font-weight: lighter;
 }

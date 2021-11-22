@@ -1,11 +1,11 @@
 * {
-    margin-left: auto;
-    margin-right: auto;
+  margin: 0;
 }
+
 
 #trackrecord h1{
     font-size: 2.6rem;
-    padding: 2rem;
+    padding: 4rem;
     padding-top: 14rem;
     font-family: "Helvetica", "Arial", sans-serif;
     font-weight: lighter;
@@ -16,6 +16,22 @@
 padding-bottom: 20rem;
      line-height: 1.4;
 }
+
+
+
+#footer {
+padding-bottom:20px;
+    text-align: center;
+}
+
+#footer p2 {
+  font-size: 0.8rem;
+    max-width: 90%;
+        font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+    padding-bottom:60px;
+}
+
 
 #trackrecord body{
       display: block;

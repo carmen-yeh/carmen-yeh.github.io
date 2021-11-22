@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+navleft {
+    float: left;
+}
+navleft ul {
+
+
+  list-style: none;
+}
+
+navleft li {
+  display: inline-block;
+  padding: 32px;
+  position: relative;
+}
+
+
+
+navright {
+    float: right;
+}
+
+navright ul {
+
+ 
+padding-right: 34px;
+  list-style: none;
+}
+    
+    navright li {
+  display: inline-block;
+  padding: 32px;
+position: relative;
+}
+
+a {
+    color: white;
+    font-size: 0.9rem;
+}

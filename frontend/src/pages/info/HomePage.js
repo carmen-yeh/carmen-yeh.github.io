@@ -1,21 +1,26 @@
 import React from "react";
-import NavigationBar from "../../components/NavigationBar";
 import Header from "../../components/info/Header";
 import About from "../../components/info/About";
-import "../../pages/info/HomePage.css"
-import LogoImage from "../../assets/header.png"
+import "../../pages/info/HomePage.css";
+import LogoImage from "../../assets/header.png";
 import BottomNavigation from "../../components/BottomNavigation";
+import TopNavigation from "../../components/TopNavigation";
+
 
 function HomePage() {
 
         
     return(
         <div>
-            <NavigationBar/>
+        <TopNavigation/>
             <img src={LogoImage} alt="UP.LOADED"/>
             <Header/>
             <About/>
             <BottomNavigation/>
+           <div id= "footer">  
+        <p> UP.LOADED - Carmen Yeh 2021 </p>
+        <p> This project was produced by Carmen Yeh as part of the Visual Communication Honours degree at the University of Technology Sydney. Special thanks to Monica Monin and Zoë Sadokierski for assisting in initial experimentation and general guidance, and Alexandra Chalmers Braithwaite for significantly contributing with project development, direction and guidance. Credits to Maggie So for assisting with web development. </p>
+        </div>
         </div>
         
     )

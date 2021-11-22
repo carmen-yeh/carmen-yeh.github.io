@@ -15,16 +15,15 @@ div{
 h1, h2, p{
     text-align: center;
 }
+
 p{
     padding-bottom: 26px;
 }
 img {
     display: block;
-      margin-left: auto;
-  margin-right: auto;
-    padding: 15rem;
- max-width: 50%;
-
+  align-content: center;
+    padding: 10rem;
+ max-width: 60%;
 
 }
 #footer{

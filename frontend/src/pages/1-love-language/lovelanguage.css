@@ -1,11 +1,11 @@
 * {
-    margin-left: auto;
-    margin-right: auto;
+  margin: 0;
 }
 
 #lovelanguage h1{
+    margin: 0;
     font-size: 2.6rem;
-    padding: 2rem;
+    padding: 4rem;
     padding-top: 14rem;
     font-family: "Helvetica", "Arial", sans-serif;
     font-weight: lighter;
@@ -15,6 +15,7 @@
     max-width: 700px;
 padding-bottom: 20rem;
     line-height: 1.4;
+    text-align: center;
 }
 
 #lovelanguage body{
@@ -24,5 +25,20 @@ padding-bottom: 20rem;
     font-size: 1rem;
  color: white;
   font-family: 'Menlo', 'Courier New', monospace;
+      text-align: center;
 
+}
+
+#footer {
+padding-bottom:20px;
+      text-align: center;
+}
+
+#footer p2 {
+  font-size: 0.8rem;
+    max-width: 90%;
+        font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+    padding-bottom:60px;
+      text-align: center;
 }

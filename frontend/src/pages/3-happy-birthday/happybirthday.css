@@ -1,5 +1,6 @@
 * {
   margin: 0;
+    
 }
 
 #happybirthday h1{
@@ -27,7 +28,7 @@ padding-bottom: 20rem;
 }
 
 #footer {
-padding-bottom:20px;
+/*padding-bottom:5px;*/
 }
 
 #footer p2 {
@@ -35,5 +36,5 @@ padding-bottom:20px;
     max-width: 90%;
         font-family: "Helvetica", "Arial", sans-serif;
     font-weight: lighter;
-    padding-bottom:60px;
+/*    padding-bottom:40px;*/
 }

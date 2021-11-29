@@ -29,7 +29,7 @@ function HomePage() {
 
     function displayMobile() {
         return (
-            <div>
+            <div style={{marginTop: "50vh"}}>
                 <p> This project is best viewed on Desktop. </p>
             </div>
         )

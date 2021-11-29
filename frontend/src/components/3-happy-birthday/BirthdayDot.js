@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
-import { bounceIn } from "react-animations";
+import { fadeIn } from "react-animations";
 
 const Dot = styled.span`
   height: 10px;
@@ -16,7 +16,7 @@ const HappyBirthdayText = styled.div`
 `;
 
 const Bounce = styled.div`
-  animation: 1.5s ${keyframes`${bounceIn}`};
+  animation: 1.5s ${keyframes`${fadeIn}`};
 `;
 
 function BirthdayDot({paddingLeft = 0, divSize = 80}) {

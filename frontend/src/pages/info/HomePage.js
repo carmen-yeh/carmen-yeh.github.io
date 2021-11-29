@@ -9,20 +9,36 @@ import TopNavigation from "../../components/TopNavigation";
 
 function HomePage() {
 
+    function displayDesktop() {
+        return (
+            <div>
+                <TopNavigation/>
+                    <img src={LogoImage} alt="UP.LOADED"/>
+                    <Header/>
+                    <About/>
+                    <BottomNavigation/>
+                <div id= "footer">  
+                <p> UP.LOADED - Carmen Yeh 2021 </p>
+                
+                <p2> This project was produced by Carmen Yeh as part of the Visual Communication Honours degree at the University of Technology Sydney. Special thanks to Monica Monin and Zoë Sadokierski for assisting in initial experimentation and general guidance, and Alexandra Chalmers Braithwaite for significantly contributing with project development, direction and guidance. Credits to Maggie So for assisting with web development. </p2>
+                
+                </div>
+            </div>
+        )
+    }
+
+    function displayMobile() {
+        return (
+            <div>
+                <p> This project is best viewed on Desktop. </p>
+            </div>
+        )
+    }
         
     return(
         <div>
-        <TopNavigation/>
-            <img src={LogoImage} alt="UP.LOADED"/>
-            <Header/>
-            <About/>
-            <BottomNavigation/>
-           <div id= "footer">  
-        <p> UP.LOADED - Carmen Yeh 2021 </p>
-        
-        <p2> This project was produced by Carmen Yeh as part of the Visual Communication Honours degree at the University of Technology Sydney. Special thanks to Monica Monin and Zoë Sadokierski for assisting in initial experimentation and general guidance, and Alexandra Chalmers Braithwaite for significantly contributing with project development, direction and guidance. Credits to Maggie So for assisting with web development. </p2>
-        
-        </div>
+            {window.innerWidth < 500 && <div> {displayMobile()} </div>}
+            {window.innerWidth >= 500 && <div> {displayDesktop()} </div>} 
         </div>
         
     )

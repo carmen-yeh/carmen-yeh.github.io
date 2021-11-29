@@ -19,12 +19,18 @@ const Bounce = styled.div`
   animation: 1.5s ${keyframes`${fadeIn}`};
 `;
 
-function BirthdayDot({paddingLeft = 0, divSize = 80}) {
+function BirthdayDot({paddingLeft = 0, divSize = 80, paddingTop = 0}) {
 
     const [active, setActive] = useState(false);
 
     return (
-        <div onMouseEnter={() => {setActive(true)}} style={{display:'flex', height:(divSize/2), width: divSize, marginLeft: (paddingLeft + 'vw'), justifyContent:'center'}}>
+        <div onMouseEnter={() => {setActive(true)}} style={{
+          display:'flex', 
+          height:(divSize/2), 
+          width: divSize, 
+          marginLeft: (paddingLeft + 'vw'), 
+          justifyContent:'center',
+          marginTop: (paddingTop + 'vh')}}>
             {active ? (
                 <Bounce>
                     <HappyBirthdayText>Happy Birthday!</HappyBirthdayText>

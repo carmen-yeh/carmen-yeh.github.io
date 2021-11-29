@@ -1,6 +1,6 @@
 import React from "react";
 import BottomNavigation from "../../components/BottomNavigation";
-import "../../pages/2-frequent-words/frequentwords.css";
+import "../../pages/2-frequent-words/FrequentWords.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function FrequentWordsPage() {

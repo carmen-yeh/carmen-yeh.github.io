@@ -6,8 +6,8 @@ const Filled = styled.div`
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     background-color: white;
     margin-left: 0;
 `;
@@ -15,13 +15,13 @@ const Opened = styled.div`
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     margin-left: 0;
 `;
 const BoxText = styled.div`
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     font-size: 15px;
     margin-left: 0;
 `;

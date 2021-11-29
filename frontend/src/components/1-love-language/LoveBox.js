@@ -21,7 +21,7 @@ const Opened = styled.div`
 `;
 const BoxText = styled.div`
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     font-size: 15px;
     margin-left: 0;
 `;

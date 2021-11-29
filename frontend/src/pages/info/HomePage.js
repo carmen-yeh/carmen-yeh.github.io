@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/info/Header";
 import About from "../../components/info/About";
-import "../../pages/info/HomePage.css";
+import "../../pages/info/homepage.css";
 import LogoImage from "../../assets/header.png";
 import BottomNavigation from "../../components/BottomNavigation";
 import TopNavigation from "../../components/TopNavigation";

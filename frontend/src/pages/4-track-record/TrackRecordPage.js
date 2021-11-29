@@ -3,7 +3,7 @@ import LineGroup1 from "../../components/4-track-record/LineGroup1";
 import LineGroup2 from "../../components/4-track-record/LineGroup2";
 import LineGroup3 from "../../components/4-track-record/LineGroup3";
 import BottomNavigation from "../../components/BottomNavigation";
-import "../../pages/4-track-record/TrackRecord.css";
+import "../../pages/4-track-record/trackrecord.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function TrackRecordPage() {

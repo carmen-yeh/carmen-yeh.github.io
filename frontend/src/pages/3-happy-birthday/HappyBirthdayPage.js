@@ -1,7 +1,7 @@
 import React from "react";
 import BirthdayDot from "../../components/3-happy-birthday/BirthdayDot";
 import BottomNavigation from "../../components/BottomNavigation";
-import "../../pages/3-happy-birthday/happybirthday.css";
+import "../../pages/3-happy-birthday/HappyBirthday.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function HappyBirthdayPage() {

@@ -39,13 +39,13 @@ function Box({text}) {
     )
 }
 
-function LoveBox({paddingLeft = 0, text = "Love You"}) {
+function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0}) {
 
     const [active, setActive] = useState(false);
 
     return(
         <div style={{display: 'flex'}}>
-            <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw')}}>
+            <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw'), marginTop: (verticalSpace + 'vh')}}>
                 {active ? (
                     <FadeIn>
                         <Box text={text} />

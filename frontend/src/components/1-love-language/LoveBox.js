@@ -44,8 +44,8 @@ function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0}) {
     const [active, setActive] = useState(false);
 
     return(
-        <div style={{display: 'flex'}}>
-            <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw'), marginTop: (verticalSpace + 'vh')}}>
+        // <div style={{display: 'flex'}}>
+            <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw'), marginTop: (verticalSpace + 'vh'), marginRight: 0}}>
                 {active ? (
                     <FadeIn>
                         <Box text={text} />
@@ -54,7 +54,7 @@ function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0}) {
                     <Filled />
                 )}
             </div>
-        </div>
+        // </div>
     )
 }
 

@@ -3,15 +3,27 @@ import Line from './Line';
 
 function LineGroup3() {
 
+    // EDIT THIS ARRAY WITH LENGTHS
+    // use length 0 to add break line
+    const lengths = [400, 300, 250, 250, 0, 300, 100, 500];
+
+    function loopLines(lengths = []) {
+
+        let lines = [];
+        for (let i = 0; i < lengths.length; i++) {
+            if (lengths[i] == 0) {
+                lines.push(<br />);
+            }
+            else {
+                lines.push(<Line length={lengths[i]} />);
+            }
+        }
+        return lines;
+    }
+
     return(
         <div>
-            <Line length={500}/>
-            <Line length={300}/>
-            <Line length={250}/>
-            <Line length={150}/>
-            <Line length={600}/>
-            <Line length={300}/>
-            <Line length={400}/>
+            {loopLines(lengths)}
         </div>
     )
 }

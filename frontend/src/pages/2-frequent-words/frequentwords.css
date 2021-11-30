@@ -7,14 +7,14 @@
 #frequentwords h1{
     font-size: 2.6rem;
     padding: 4rem;
-    padding-top: 14rem;
+    padding-top: 18rem;
     font-family: "Helvetica", "Arial", sans-serif;
     font-weight: lighter;
 }
 
 #frequentwords p {
     max-width: 700px;
-padding-bottom: 20rem;
+padding-bottom: 25rem;
     line-height: 1.4;
 }
 

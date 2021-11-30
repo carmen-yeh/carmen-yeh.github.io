@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/TopNavigation.css";
+import "../components/topnavigation.css";
 
 
 function TopNavigation() {
@@ -8,7 +8,7 @@ function TopNavigation() {
  <navleft>
         <ul>
           <li><a href="/">HOME</a></li>
-          <li><a href="love-language">LOVE.LANGUAGE</a></li>
+          <li><a  href="love-language">LOVE.LANGUAGE</a></li>
           <li><a href="frequent-words">FREQUENT.WORDS</a></li>
           <li><a href="happy-birthday">HAPPY.BIRTHDAY</a></li>
          <li><a href="track-record">TRACK.RECORD</a></li>

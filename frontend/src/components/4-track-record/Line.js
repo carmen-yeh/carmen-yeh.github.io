@@ -14,7 +14,7 @@ border-color: white;
 
 function Line({length = 100, height = 8}) {
     return (
-        <div style={{display:'flex', width: '33vw', height: (height + 10), justifyContent: 'center'}}>
+        <div style={{display:'flex', width: '33vw', height: (height + 12), justifyContent: 'center'}}>
             <StyledDiv
                 style={{
                     width: length,

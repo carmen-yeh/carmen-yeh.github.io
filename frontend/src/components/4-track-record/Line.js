@@ -9,7 +9,7 @@ border-style: solid;
     background-color: white;
 border-color: white;
     }
-    transition: background-color 0.05s linear;
+    transition: background-color 0.01s linear;
 `;
 
 function Line({length = 100, height = 8}) {

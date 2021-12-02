@@ -40,10 +40,8 @@ function BottomNavigation() {
 
     return(
         <div style={{display: 'block', justifyContent:'center', paddingTop: 200, paddingBottom: 200}}>
-            <Card style={{width: '280px', backgroundColor: "#000000"}}>
+            <Card style={{width: '280px', backgroundColor: "transparent"}}>
                 <CardContent>
-                    {/* <Button text={"HOME"} link={"/"} />
-                    <Button text={"ABOUT"} link={"/about"} /> */}
                     <Button text={"LOVE.LANGUAGE"} link={"/love-language"} />
                     <Button text={"FREQUENT.WORDS"} link={"/frequent-words"} />
                     <Button text={"HAPPY.BIRTHDAY"} link={"/happy-birthday"} />

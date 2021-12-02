@@ -38,7 +38,7 @@ function HomePage() {
     return(
         <div>
             {window.innerWidth < 500 && <div> {displayMobile()} </div>}
-            {window.innerWidth >= 500 && <div> {displayDesktop()} </div>} 
+            {window.innerWidth >= 500 && <div id='background'> {displayDesktop()} </div>} 
         </div>
         
     )

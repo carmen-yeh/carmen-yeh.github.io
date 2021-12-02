@@ -7,7 +7,7 @@ import TopNavigation from "../../components/TopNavigation";
 function LoveLanguagePage() {
 
     return(
-        <div>
+        <div id='background-red'>
             <TopNavigation/>
             <div id = 'lovelanguage'>
                 

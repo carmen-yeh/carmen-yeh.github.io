@@ -6,6 +6,7 @@
 
 #background-blue {
   background-image: url("../../assets/background2.jpg");
+  background-size: 100%;
 }
 
 #frequentwords h1{
@@ -32,9 +33,9 @@ padding-bottom: 25rem;
 
 }
 
-#footer p{
-/*padding-bottom:20px;*/
-}
+/* #footer p{
+padding-bottom:20px;
+} */
 
 #footer p2 {
   font-size: 0.8rem;

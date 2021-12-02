@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BottomNavigation from "../../components/BottomNavigation";
 import "../../pages/2-frequent-words/frequentwords.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function FrequentWordsPage() {
+
+    useEffect(() => {window.scrollTo(0,0)});
 
     return(
         <div id='background-blue'>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LineGroup1 from "../../components/4-track-record/LineGroup1";
 import LineGroup2 from "../../components/4-track-record/LineGroup2";
 import LineGroup3 from "../../components/4-track-record/LineGroup3";
@@ -7,6 +7,8 @@ import "../../pages/4-track-record/trackrecord.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function TrackRecordPage() {
+
+    useEffect(() => {window.scrollTo(0,0)});
 
     return(
         
@@ -18,11 +20,13 @@ function TrackRecordPage() {
                 TRACK.RECORD
             </h1>
             <p>TRACK.RECORD explores 3 different personal friendships through sentiment (emotional) analysis of messages exchanged between each of them. The wider the line, the happier the message content is.</p>
-            <div id = "codepoem">
-                <p>  time (2011 + 10) 
-                sentiment.value,time, change; high.low.middle(){}////t on e of   vo i  ce if (communication.digitalised) perceived.emotions = 100% performed.emotions = 300%   }     print(record.of.relationship)
-                                    </p>
-            </div>
+            {/* <div id = "codepoem">
+                <p>  time (2011 + 10) </p>
+                <p> sentiment.value,time, change; </p>
+                <p> high.low.middle() &#123;</p>
+                <p> ////t on e of   vo i  ce if (communication.digitalised) </p>  perceived.emotions = 100% performed.emotions = 300%        
+                <p> print(record.of.relationship) </p>
+            </div> */}
             
             <div style={{display: 'flex', justifyContent: "space-evenly", position: "relative"}}>
                 <LineGroup1 />

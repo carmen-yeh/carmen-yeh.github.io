@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LoveBox from "../../components/1-love-language/LoveBox";
 import BottomNavigation from "../../components/BottomNavigation";
 import "../../pages/1-love-language/lovelanguage.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function LoveLanguagePage() {
+
+    useEffect(() => {window.scrollTo(0,0)});
 
     return(
         <div id='background-red'>

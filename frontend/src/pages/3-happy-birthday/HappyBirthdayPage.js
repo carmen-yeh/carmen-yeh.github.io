@@ -33,7 +33,7 @@ function HappyBirthdayPage() {
             <BirthdayDot paddingLeft={45} divSize={100} verticalSpace={10}/>
             <BirthdayDot paddingLeft={90} divSize={100} verticalSpace={0}/>
             
-            <BottomNavigation />
+            <BottomNavigation colour="red"/>
             <div id= "footer">  
                 <p2> UP.LOADED - Carmen Yeh 2021 </p2>
             </div>

@@ -16,7 +16,7 @@ function HomePage() {
                     <img src={LogoImage} alt="UP.LOADED"/>
                     <Header/>
                     <About/>
-                    <BottomNavigation/>
+                    <BottomNavigation colour="blue"/>
                 <div id= "footer">  
                 <p> UP.LOADED - Carmen Yeh 2021 </p>
                 

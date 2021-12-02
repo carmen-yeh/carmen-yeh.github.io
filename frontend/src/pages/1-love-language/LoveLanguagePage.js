@@ -18,7 +18,7 @@ function LoveLanguagePage() {
                     <LoveBox paddingLeft={20} text={"e"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={"w"} verticalSpace={0}/>
                 </div>
-                <BottomNavigation />
+                <BottomNavigation colour="red"/>
                 <div id= "footer">  
                     <p2> UP.LOADED - Carmen Yeh 2021 </p2>
                 </div>

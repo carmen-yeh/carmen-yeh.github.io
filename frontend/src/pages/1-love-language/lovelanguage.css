@@ -4,6 +4,7 @@
 
 #background-red {
   background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
 }
 
 #lovelanguage h1{

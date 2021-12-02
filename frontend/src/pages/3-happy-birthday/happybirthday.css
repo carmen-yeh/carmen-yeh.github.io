@@ -9,39 +9,39 @@
 }
 
 #happybirthday h1{
-    font-size: 2.6rem;
-    padding: 4rem;
-    padding-top: 18rem;
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-weight: lighter;
+  font-size: 2.6rem;
+  padding: 4rem;
+  padding-top: 18rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
 }
 
 #happybirthday p {
-    max-width: 700px;
-padding-bottom: 25rem;
-    line-height: 1.4;
+  max-width: 700px;
+  padding-bottom: 25rem;
+  line-height: 1.4;
 }
 
 #happybirthday body{
-      display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
   background-color: #000000;
-    font-size: 1rem;
- color: white;
+  font-size: 1rem;
+  color: white;
   font-family: 'Menlo', 'Courier New', monospace;
 
 }
 
 
 /* #footer {
-padding-bottom:5px;
+  padding-bottom:5px;
 } */
 
 #footer p2 {
   font-size: 0.8rem;
-    max-width: 90%;
-        font-family: "Helvetica", "Arial", sans-serif;
-    font-weight: lighter;
+  max-width: 90%;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
 /*    padding-bottom:40px;*/
 }
 

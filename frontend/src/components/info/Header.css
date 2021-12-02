@@ -3,14 +3,14 @@
 }
 
 #header h1{
-    font-size: 1.2rem;
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-weight: lighter;
+  font-size: 1.2rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
 }
 
 #header h2{
-    font-size: 1.1rem;
-    padding-bottom: 24rem;
+  font-size: 1.1rem;
+  padding-bottom: 24rem;
   font-family: 'Menlo', 'Courier New', monospace;
-    font-weight: lighter;
+  font-weight: lighter;
 }

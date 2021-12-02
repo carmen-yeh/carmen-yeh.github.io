@@ -3,8 +3,8 @@ import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
 
 const Dot = styled.span`
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   background-color: white;
   border-radius: 50%;
   display: inline-block;

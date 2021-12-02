@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LineGroup1 from "../../components/4-track-record/LineGroup1";
 import LineGroup2 from "../../components/4-track-record/LineGroup2";
 import LineGroup3 from "../../components/4-track-record/LineGroup3";
@@ -7,6 +7,8 @@ import "../../pages/4-track-record/trackrecord.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function TrackRecordPage() {
+
+    useEffect(() => {window.scrollTo(0,0)});
 
     return(
         

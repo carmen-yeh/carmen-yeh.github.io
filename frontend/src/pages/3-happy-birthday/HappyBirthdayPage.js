@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BirthdayDot from "../../components/3-happy-birthday/BirthdayDot";
 import BottomNavigation from "../../components/BottomNavigation";
 import "../../pages/3-happy-birthday/happybirthday.css";
 import TopNavigation from "../../components/TopNavigation";
 
 function HappyBirthdayPage() {
+
+    useEffect(() => {window.scrollTo(0,0)});
 
     return(
         <div id='background-red'>

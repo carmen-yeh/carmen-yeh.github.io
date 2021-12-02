@@ -24,7 +24,7 @@ function TrackRecordPage() {
                                     </p>
             </div>
             
-            <div style={{display: 'flex', justifyContent: "space-evenly"}}>
+            <div style={{display: 'flex', justifyContent: "space-evenly", position: "relative"}}>
                 <LineGroup1 />
                 <LineGroup2 />
                 <LineGroup3 />

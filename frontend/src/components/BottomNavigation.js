@@ -16,7 +16,7 @@ const BoxRed = styled.button`
     height: 75px;
     width: 260px;
     margin-top: 20px;
-align-content: center;
+    align-content: center;
 `;
 const BoxBlue = styled.button`
     border-width: 1.8px;
@@ -30,7 +30,7 @@ const BoxBlue = styled.button`
     height: 75px;
     width: 260px;
     margin-top: 20px;
-align-content: center;
+    align-content: center;
 `;
 const Text = styled.div`
     text-align:center;

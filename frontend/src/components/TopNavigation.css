@@ -5,9 +5,8 @@
 navleft {
     float: left;
 }
+
 navleft ul {
-
-
   list-style: none;
 }
 
@@ -17,26 +16,22 @@ navleft li {
   position: relative;
 }
 
-
-
 navright {
-    float: right;
+  float: right;
 }
 
 navright ul {
-
- 
-padding-right: 34px;
+  padding-right: 34px;
   list-style: none;
 }
     
-    navright li {
+navright li {
   display: inline-block;
   padding: 32px;
-position: relative;
+  position: relative;
 }
 
 a {
-    color: white;
-    font-size: 0.9rem;
+  color: white;
+  font-size: 0.9rem;
 }

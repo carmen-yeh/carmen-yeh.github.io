@@ -30,7 +30,7 @@ function TrackRecordPage() {
                 <LineGroup3 />
             </div>
 
-            <BottomNavigation />
+            <BottomNavigation colour="blue"/>
 
             <div id= "footer">  
                 <p2> UP.LOADED - Carmen Yeh 2021 </p2>

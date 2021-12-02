@@ -6,6 +6,7 @@
 
 #background-blue {
   background-image: url("../../assets/background2.jpg");
+  background-size: 100%;
 }
 
 #frequentwords h1{

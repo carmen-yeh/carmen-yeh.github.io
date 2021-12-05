@@ -17,7 +17,9 @@ function LoveLanguagePage() {
                 <h1>LOVE.LANGUAGE</h1>
                 <p>LOVE.LANGUAGE explores the idea of expressing love through the sending of images online to loved ones. This is an image analysis of photos I’ve posted online over time where each white square is an image related to food. I highlighted these findings and linked them to the idea of a digital love language.</p>
 
-        <img src={poem} alt="poem" style={{position: "absolute", paddingLeft: 520, paddingTop: 300, width: "50vw"}} />
+        <div style={{display:"flex", justifyContent: "center", maxHeight: "100wh"}}>
+            <img src={poem} alt="poem" style={{position: "absolute", height: "100wh"}} />
+        </div>
         <div style={{position: "relative"}}>
 
         

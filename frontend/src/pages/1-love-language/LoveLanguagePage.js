@@ -3,6 +3,7 @@ import LoveBox from "../../components/1-love-language/LoveBox";
 import BottomNavigation from "../../components/BottomNavigation";
 import "../../pages/1-love-language/lovelanguage.css";
 import TopNavigation from "../../components/TopNavigation";
+import poem from "../../assets/lovelanguagepoem.png";
 
 function LoveLanguagePage() {
 
@@ -16,10 +17,14 @@ function LoveLanguagePage() {
                 <h1>LOVE.LANGUAGE</h1>
                 <p>LOVE.LANGUAGE explores the idea of expressing love through the sending of images online to loved ones. This is an image analysis of photos I’ve posted online over time where each white square is an image related to food. I highlighted these findings and linked them to the idea of a digital love language.</p>
 
-       <div style={{display: 'flex'}}>
+        <img src={poem} alt="poem" style={{position: "absolute", paddingLeft: 520, paddingTop: 300, width: "50vw"}} />
+        <div style={{position: "relative"}}>
+
+        
+        <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={10} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={20} text={"strawberry-crepe-cake.jpg"} verticalSpace={0}/>
+                    <LoveBox paddingLeft={20} text={"strawberry -crepe-cake.jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
         </div>
         
@@ -156,7 +161,7 @@ function LoveLanguagePage() {
                     <LoveBox paddingLeft={59.6} text={""} verticalSpace={0}/>
         <LoveBox paddingLeft={22} text={""} verticalSpace={0}/>
        
-       
+        </div>
         </div>
                 
                 <BottomNavigation colour="red"/>

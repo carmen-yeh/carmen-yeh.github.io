@@ -23,9 +23,9 @@ function LoveLanguagePage() {
             <img src={poem} alt="poem" style={{position: "absolute", height: "100wh"}} />
         </div>
         
-        <div id = 'textbox'>
+        
         <div style={{position: "relative"}}>
-        <div style={{display: 'flex', fontSize: 2}}>
+        <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={10} text={"test.jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={"strawberry -crepe-cake.jpg"} verticalSpace={0}/>
@@ -165,7 +165,7 @@ function LoveLanguagePage() {
                     <LoveBox paddingLeft={59.6} text={""} verticalSpace={0}/>
         <LoveBox paddingLeft={22} text={""} verticalSpace={0}/>
        
-        </div>
+        
         </div>
          </div>
                 

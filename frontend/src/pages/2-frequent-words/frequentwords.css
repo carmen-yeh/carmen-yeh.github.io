@@ -18,11 +18,20 @@
 }
 
 #frequentwords p {
+  display: block;
   max-width: 700px;
-  padding-bottom: 25rem;
+  padding-bottom: 10rem;
   line-height: 1.4;
+  text-align: center;
 }
 
+#frequentwords p2 {
+  display: block;
+  max-width: 700px;
+  padding-bottom: 15rem;
+  line-height: 1.4;
+  text-align: center;
+}
 #frequentwords body{
   display: block;
   text-align: center;

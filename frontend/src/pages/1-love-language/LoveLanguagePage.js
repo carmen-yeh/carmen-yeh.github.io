@@ -26,7 +26,7 @@ function LoveLanguagePage() {
         
         <div style={{position: "relative"}}>
         <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={10} text={"test.jpg"} verticalSpace={0}/>
+                    <LoveBox paddingLeft={10} text={"test.jpg"} verticalSpace={0} fontSize={20}/>
                     <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={"strawberry -crepe-cake.jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>

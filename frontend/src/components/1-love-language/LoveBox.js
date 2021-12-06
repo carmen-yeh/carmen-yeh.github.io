@@ -22,39 +22,36 @@ const Opened = styled.div`
 const BoxText = styled.div`
     text-align: center;
     padding: 7px;
-    font-size: 15px;
     margin-left: 0;
 `;
 const FadeIn = styled.div`
     animation: 0.5s ${keyframes`${fadeIn}`};
 `;
 
-function Box({text}) {
+function Box({text, fontSize}) {
     return (
         <div>
             <Opened>
-                <BoxText>{text}</BoxText>
+                <BoxText style={{fontSize: fontSize}}>{text}</BoxText>
             </Opened>
         </div>
     )
 }
 
-function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0}) {
+function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0, fontSize = 15}) {
 
     const [active, setActive] = useState(false);
 
     return(
-        // <div style={{display: 'flex'}}>
             <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw'), marginTop: (verticalSpace + 'vh'), marginRight: 0}}>
                 {active ? (
                     <FadeIn>
-                        <Box text={text} />
+                        <Box text={text} fontSize={fontSize}/>
                     </FadeIn>
                 ) : (
                     <Filled />
                 )}
             </div>
-        // </div>
     )
 }
 

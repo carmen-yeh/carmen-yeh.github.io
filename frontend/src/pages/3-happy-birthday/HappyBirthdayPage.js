@@ -17,6 +17,8 @@ function HappyBirthdayPage() {
                 HAPPY.BIRTHDAY
             </h1>
             <p>HAPPY.BIRTHDAY explores the idea of making meaningful posts through analysing how frequent I post a ‘generic’ birthday message. This experiment was formed through conducting reading analysis of posts where each birthday message is highlighted by a white dot. What counts as a meaningful post?</p>
+        <p2> //Hover your mouse over the white circles.
+        </p2>
         
             <div style={{display: "flex", justifyContent:"center"}}>
                 <img src={poem} alt="poem" style={{position: "absolute", paddingTop: 1800}} />

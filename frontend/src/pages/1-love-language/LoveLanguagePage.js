@@ -16,15 +16,17 @@ function LoveLanguagePage() {
                 
                 <h1>LOVE.LANGUAGE</h1>
                 <p>LOVE.LANGUAGE explores the idea of expressing love through the sending of images online to loved ones. This is an image analysis of photos I’ve posted online over time where each white square is an image related to food. I highlighted these findings and linked them to the idea of a digital love language.</p>
+        <p2> //Hover your mouse over the white squares. 
+        </p2>
 
         <div style={{display:"flex", justifyContent: "center", maxHeight: "100wh"}}>
             <img src={poem} alt="poem" style={{position: "absolute", height: "100wh"}} />
         </div>
-        <div style={{position: "relative"}}>
-
         
-        <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={10} text={""} verticalSpace={0}/>
+        <div id = 'textbox'>
+        <div style={{position: "relative"}}>
+        <div style={{display: 'flex', fontSize: 2}}>
+                    <LoveBox paddingLeft={10} text={"test.jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={20} text={"strawberry -crepe-cake.jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
@@ -165,6 +167,7 @@ function LoveLanguagePage() {
        
         </div>
         </div>
+         </div>
                 
                 <BottomNavigation colour="red"/>
                 <div id= "footer">  

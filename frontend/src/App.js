@@ -8,7 +8,6 @@ import HappyBirthdayPage from './pages/3-happy-birthday/HappyBirthdayPage';
 import TrackRecordPage from './pages/4-track-record/TrackRecordPage';
 
 import HomePage from './pages/info/HomePage';
-import AboutPage from './pages/info/AboutPage';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Route path='frequent-words' element={<FrequentWordsPage />}/>
         <Route path='happy-birthday' element={<HappyBirthdayPage />}/>
         <Route path='track-record' element={<TrackRecordPage />}/>
-        <Route path='/about' element={<AboutPage />}/>
         <Route path='/' element={<HomePage />}/>
       </Routes>
     </Router>

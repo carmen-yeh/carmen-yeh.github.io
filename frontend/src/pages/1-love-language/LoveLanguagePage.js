@@ -26,39 +26,39 @@ function LoveLanguagePage() {
         
         <div style={{position: "relative"}}>
         <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={10} text={"test.jpg"} verticalSpace={0} fontSize={20}/>
-                    <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={20} text={"strawberry -crepe-cake.jpg"} verticalSpace={0}/>
+                    <LoveBox paddingLeft={10} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={20} text={"birthday_ dinner .jpg"} verticalSpace={0}/>
+                    <LoveBox paddingLeft={20} text={"strawberry_ crepe_ cake .jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={4.3} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={12} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={12} text={"yum_ cha .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={27.7} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={26} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={26} text={"avo_ on_ toast .jpg"} verticalSpace={0}/>
         </div>
         
                 <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={22} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={26} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={15} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={15} text={"half_ baked_ scones .jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={6} text={""} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={27.7} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={14.7} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={14.7} text={"lemons_ given_ from_ neighbours .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={4.3} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={5.8} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={14} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={5.8} text={"cakes_ ordered_ online .jpg"} verticalSpace={0}/>
+        <LoveBox paddingLeft={14} text={"famous_ cafe_ insta_ page .jpg"} verticalSpace={0}/>
         </div>
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={22} text={""} verticalSpace={10}/>
@@ -67,7 +67,7 @@ function LoveLanguagePage() {
          <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={27.8} text={""} verticalSpace={0}/>
                     <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={27} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={27} text={"roll_ cakes .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
@@ -75,18 +75,18 @@ function LoveLanguagePage() {
                     
         </div>
          <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={27.8} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={27.8} text={"homemade_ gnocchi .jpg"} verticalSpace={0}/>
                     
         </div>
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={5} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={22.8} text={""} verticalSpace={0}/>
-                    <LoveBox paddingLeft={38} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={22.8} text={"freshly_ baked_ foccacia .jpg"} verticalSpace={0}/>
+                    <LoveBox paddingLeft={38} text={"homemade_ pasta .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={5} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={5} text={"bubble_ tea .jpg"} verticalSpace={0}/>
                     <LoveBox paddingLeft={22.8} text={""} verticalSpace={0}/>
         <LoveBox paddingLeft={38} text={""} verticalSpace={0}/>
                     
@@ -94,7 +94,7 @@ function LoveLanguagePage() {
         
          <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={27.8} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={12} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={12} text={"portuguese_ tarts .jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={10} text={""} verticalSpace={0}/>
         <LoveBox paddingLeft={16} text={""} verticalSpace={0}/>
                     
@@ -102,13 +102,13 @@ function LoveLanguagePage() {
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={11} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={17} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={17} text={"street_ food .jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={16} text={""} verticalSpace={0}/>
             
         </div>
         
         <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={17} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={17} text={"street_ food .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
@@ -117,10 +117,10 @@ function LoveLanguagePage() {
         
         <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={5} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={0} text={"ramen .jpg"} verticalSpace={0}/>
                     
         <LoveBox paddingLeft={0} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={17.6} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={17.6} text={"fusion_ restaurant .jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={31} text={""} verticalSpace={0}/>
         </div>
         
@@ -131,13 +131,13 @@ function LoveLanguagePage() {
         </div>
         
          <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={28} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={28} text={"homemade_ afternoon_ tea .jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={6} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={19.7} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={19.7} text={"wedding_ food .jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>
-                    <LoveBox paddingLeft={16} text={""} verticalSpace={0}/>
+                    <LoveBox paddingLeft={16} text={"rice_ paper_ rolls .jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={12.1} text={""} verticalSpace={0}/>
         <LoveBox paddingLeft={20} text={""} verticalSpace={0}/>
        
@@ -150,7 +150,7 @@ function LoveLanguagePage() {
         
         <div style={{display: 'flex'}}>
                    
-        <LoveBox paddingLeft={76} text={""} verticalSpace={0}/>
+        <LoveBox paddingLeft={76} text={"half_ eaten_ tiramisu .jpg"} verticalSpace={0}/>
        
         </div>
         

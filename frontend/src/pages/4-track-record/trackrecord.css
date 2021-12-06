@@ -16,20 +16,19 @@
 }
 
 #trackrecord p {
+  display: block;
   max-width: 700px;
-  padding-bottom: 30rem;
+  padding-bottom: 10rem;
   line-height: 1.4;
+  text-align: center;
 }
 
-
-#codepoem p {
-  position: absolute;
-  text-align: center;
+#trackrecord p2 {
+  display: block;
   max-width: 700px;
-  top: 200%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 14;
+  padding-bottom: 15rem;
+  line-height: 1.4;
+  text-align: center;
 }
 
 

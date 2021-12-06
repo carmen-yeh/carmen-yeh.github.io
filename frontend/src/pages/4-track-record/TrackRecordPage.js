@@ -21,8 +21,11 @@ function TrackRecordPage() {
                 TRACK.RECORD
             </h1>
             <p>TRACK.RECORD explores 3 different personal friendships through sentiment (emotional) analysis of messages exchanged between each of them. The wider the line, the happier the message content is.</p>
-            <img src={poem} alt={"poem"} style={{position: "absolute", marginTop: 510, marginLeft: 70}}/>
             
+            <div style={{display: "flex", justifyContent:"center"}}>
+                <img src={poem} alt={"poem"} style={{position: "absolute", marginTop: 510, paddingRight: 500}}/>
+            </div>
+
             <div style={{display: 'flex', justifyContent: "space-evenly", position: "relative"}}>
                 <LineGroup1 />
                 <LineGroup2 />

@@ -38,10 +38,8 @@ function Box({text, fontSize}) {
     )
 }
 
-function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0, fontSize = 15}) {
-
+function LoveBox({paddingLeft = 0, text = "Love You", verticalSpace = 0, fontSize = 12}) {
     const [active, setActive] = useState(false);
-
     return(
             <div onMouseEnter={() => {setActive(true)}} style={{marginLeft: (paddingLeft + 'vw'), marginTop: (verticalSpace + 'vh'), marginRight: 0}}>
                 {active ? (

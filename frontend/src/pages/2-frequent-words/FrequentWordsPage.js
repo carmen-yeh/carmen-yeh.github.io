@@ -22,7 +22,7 @@ function FrequentWordsPage() {
                 </h1>
                 <p>FREQUENT.WORDS explores the most frequently used unique words when I interact with others online. Word analysis was conducted where the frequency of each word is presented and how this pattern has changed.</p>
                 <div style={{display:"flex", justifyContent:"center"}}>
-                    <img src={poem} alt={"poem"} style={{position:"absolute"}}/>
+                    <img src={poem} alt={"poem"} style={{position:"absolute", maxWidth: 800}}/>
                     {size && <img src={words2} alt={"poem"} style={{width: "100vw", position:"relative"}} />}
                     {!size && <img src={words1} alt={"poem"} style={{width:"100vw", position:"relative"}} />}
                 </div>

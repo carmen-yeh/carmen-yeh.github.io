@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/projectuploaded/static/css/main.df7c7faf.chunk.css",
+    "main.js": "/projectuploaded/static/js/main.9ad93033.chunk.js",
+    "main.js.map": "/projectuploaded/static/js/main.9ad93033.chunk.js.map",
+    "runtime-main.js": "/projectuploaded/static/js/runtime-main.20739d9b.js",
+    "runtime-main.js.map": "/projectuploaded/static/js/runtime-main.20739d9b.js.map",
+    "static/js/2.2bdb44d1.chunk.js": "/projectuploaded/static/js/2.2bdb44d1.chunk.js",
+    "static/js/2.2bdb44d1.chunk.js.map": "/projectuploaded/static/js/2.2bdb44d1.chunk.js.map",
+    "static/js/3.e93aaea1.chunk.js": "/projectuploaded/static/js/3.e93aaea1.chunk.js",
+    "static/js/3.e93aaea1.chunk.js.map": "/projectuploaded/static/js/3.e93aaea1.chunk.js.map",
+    "index.html": "/projectuploaded/index.html",
+    "static/css/main.df7c7faf.chunk.css.map": "/projectuploaded/static/css/main.df7c7faf.chunk.css.map",
+    "static/js/2.2bdb44d1.chunk.js.LICENSE.txt": "/projectuploaded/static/js/2.2bdb44d1.chunk.js.LICENSE.txt",
+    "static/media/happybirthday.css": "/projectuploaded/static/media/background.c7741126.jpg",
+    "static/media/trackrecord.css": "/projectuploaded/static/media/background2.21d4c373.jpg",
+    "static/media/homepage.css": "/projectuploaded/static/media/backgroundhomepage.34e89d11.jpg",
+    "static/media/frequentwords1000px.3209fe53.png": "/projectuploaded/static/media/frequentwords1000px.3209fe53.png",
+    "static/media/frequentwords2000px.c8cbd6e3.png": "/projectuploaded/static/media/frequentwords2000px.c8cbd6e3.png",
+    "static/media/frequentwordspoem.153815c6.png": "/projectuploaded/static/media/frequentwordspoem.153815c6.png",
+    "static/media/happybirthdaypoem.9b1b7f3d.png": "/projectuploaded/static/media/happybirthdaypoem.9b1b7f3d.png",
+    "static/media/header.115c11f2.png": "/projectuploaded/static/media/header.115c11f2.png",
+    "static/media/lovelanguagepoem.023f0206.png": "/projectuploaded/static/media/lovelanguagepoem.023f0206.png",
+    "static/media/trackrecordpoem.e00d4c95.png": "/projectuploaded/static/media/trackrecordpoem.e00d4c95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20739d9b.js",
+    "static/js/2.2bdb44d1.chunk.js",
+    "static/css/main.df7c7faf.chunk.css",
+    "static/js/main.9ad93033.chunk.js"
+  ]
+}

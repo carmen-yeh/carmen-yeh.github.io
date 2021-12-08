@@ -133,7 +133,7 @@ function LoveLanguagePage() {
          <div style={{display: 'flex'}}>
                     <LoveBox paddingLeft={28} text={"homemade_ afternoon_ tea.jpg"} verticalSpace={0}/>
         <LoveBox paddingLeft={6} text={""} verticalSpace={0}/>
-        <LoveBox paddingLeft={19.7} text={"wedding_ food .jpg"} verticalSpace={0}/>
+        <LoveBox paddingLeft={19.7} text={"wedding_ food.jpg"} verticalSpace={0}/>
         </div>
         
         <div style={{display: 'flex'}}>

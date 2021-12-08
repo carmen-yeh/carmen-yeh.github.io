@@ -1,17 +1,17 @@
 import React from "react";
 import "../components/TopNavigation.css";
-
+import { Link } from "react-router-dom";
 
 function TopNavigation() {
   return(
     <div>
       <navleft>
       <ul>
-        <li><a href="/">HOME</a></li>
-        <li><a  href="love-language">LOVE.LANGUAGE</a></li>
-        <li><a href="frequent-words">FREQUENT.WORDS</a></li>
-        <li><a href="happy-birthday">HAPPY.BIRTHDAY</a></li>
-        <li><a href="track-record">TRACK.RECORD</a></li>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/love-language">LOVE.LANGUAGE</Link></li>
+        <li><Link to="/frequent-words">FREQUENT.WORDS</Link></li>
+        <li><Link to="/happy-birthday">HAPPY.BIRTHDAY</Link></li>
+        <li><Link to="/track-record">TRACK.RECORD</Link></li>
       </ul>
       </navleft>
         

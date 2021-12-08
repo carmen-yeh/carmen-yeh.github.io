@@ -11,7 +11,7 @@ function LineGroup2() {
 
         let lines = [];
         for (let i = 0; i < lengths.length; i++) {
-            if (lengths[i] == 0) {
+            if (lengths[i] === 0) {
                 lines.push(<br />);
             }
             else {

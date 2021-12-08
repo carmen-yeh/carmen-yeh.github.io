@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import LoveLanguagePage from './pages/1-love-language/LoveLanguagePage';
 import FrequentWordsPage from './pages/2-frequent-words/FrequentWordsPage';
@@ -13,10 +13,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='love-language' element={<LoveLanguagePage />}/>
-        <Route path='frequent-words' element={<FrequentWordsPage />}/>
-        <Route path='happy-birthday' element={<HappyBirthdayPage />}/>
-        <Route path='track-record' element={<TrackRecordPage />}/>
+        <Route path='/love-language' element={<LoveLanguagePage />}/>
+        <Route path='/frequent-words' element={<FrequentWordsPage />}/>
+        <Route path='/happy-birthday' element={<HappyBirthdayPage />}/>
+        <Route path='/track-record' element={<TrackRecordPage />}/>
         <Route path='/' element={<HomePage />}/>
       </Routes>
     </Router>

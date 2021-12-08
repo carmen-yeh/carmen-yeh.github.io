@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/projectuploaded/static/css/main.06b3fbcd.chunk.css",
-    "main.js": "/projectuploaded/static/js/main.560e94aa.chunk.js",
-    "main.js.map": "/projectuploaded/static/js/main.560e94aa.chunk.js.map",
+    "main.js": "/projectuploaded/static/js/main.1ef20bdc.chunk.js",
+    "main.js.map": "/projectuploaded/static/js/main.1ef20bdc.chunk.js.map",
     "runtime-main.js": "/projectuploaded/static/js/runtime-main.20739d9b.js",
     "runtime-main.js.map": "/projectuploaded/static/js/runtime-main.20739d9b.js.map",
-    "static/js/2.994afffb.chunk.js": "/projectuploaded/static/js/2.994afffb.chunk.js",
-    "static/js/2.994afffb.chunk.js.map": "/projectuploaded/static/js/2.994afffb.chunk.js.map",
+    "static/js/2.d5780ace.chunk.js": "/projectuploaded/static/js/2.d5780ace.chunk.js",
+    "static/js/2.d5780ace.chunk.js.map": "/projectuploaded/static/js/2.d5780ace.chunk.js.map",
     "static/js/3.e93aaea1.chunk.js": "/projectuploaded/static/js/3.e93aaea1.chunk.js",
     "static/js/3.e93aaea1.chunk.js.map": "/projectuploaded/static/js/3.e93aaea1.chunk.js.map",
     "index.html": "/projectuploaded/index.html",
     "static/css/main.06b3fbcd.chunk.css.map": "/projectuploaded/static/css/main.06b3fbcd.chunk.css.map",
-    "static/js/2.994afffb.chunk.js.LICENSE.txt": "/projectuploaded/static/js/2.994afffb.chunk.js.LICENSE.txt",
+    "static/js/2.d5780ace.chunk.js.LICENSE.txt": "/projectuploaded/static/js/2.d5780ace.chunk.js.LICENSE.txt",
     "static/media/happybirthday.css": "/projectuploaded/static/media/background.c7741126.jpg",
     "static/media/trackrecord.css": "/projectuploaded/static/media/background2.21d4c373.jpg",
     "static/media/homepage.css": "/projectuploaded/static/media/backgroundhomepage.34e89d11.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.20739d9b.js",
-    "static/js/2.994afffb.chunk.js",
+    "static/js/2.d5780ace.chunk.js",
     "static/css/main.06b3fbcd.chunk.css",
-    "static/js/main.560e94aa.chunk.js"
+    "static/js/main.1ef20bdc.chunk.js"
   ]
 }

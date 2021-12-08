@@ -21,7 +21,9 @@ const Opened = styled.div`
 `;
 const BoxText = styled.div`
     text-align: center;
-    padding: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 20px;
     margin-left: 0;
 `;
 const FadeIn = styled.div`
